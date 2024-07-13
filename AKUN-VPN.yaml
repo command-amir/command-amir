@@ -1,0 +1,185 @@
+proxies:
+  - name: Tro Grpc 240
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: 5b8d3436-46b3-46f7-985a-0d62015d5a91
+    skip-cert-verify: true
+    sni: sg6.fastserver.biz.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: Tro Grpc Quiz
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 5b8d3436-46b3-46f7-985a-0d62015d5a91
+    skip-cert-verify: true
+    sni: sg6.fastserver.biz.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: Tro Grpc Int
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 5b8d3436-46b3-46f7-985a-0d62015d5a91
+    skip-cert-verify: true
+    sni: sg6.fastserver.biz.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
+    udp: true
+  - name: Tro WS 240
+    server: 104.22.4.240
+    port: 443
+    type: trojan
+    password: 5b8d3436-46b3-46f7-985a-0d62015d5a91
+    skip-cert-verify: true
+    sni: sg6.fastserver.biz.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg6.fastserver.biz.id
+    udp: true 
+  - name: Tro WS Quiz
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 5b8d3436-46b3-46f7-985a-0d62015d5a91
+    skip-cert-verify: true
+    sni: sg6.fastserver.biz.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg6.fastserver.biz.id
+    udp: true 
+  - name: Tro WS Int
+    server: quiz.int.vidio.com
+    port: 443
+    type: trojan
+    password: 5b8d3436-46b3-46f7-985a-0d62015d5a91
+    skip-cert-verify: true
+    sni: sg6.fastserver.biz.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg6.fastserver.biz.id
+    udp: true
+  - name: trial 1
+    server: quiz.vidio.com
+    port: 443
+    type: vless
+    uuid: f9021b31-e8bd-4b4d-a1d3-c9b0c1476c44
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-do.tingkehvpn.my.id
+    network: ws
+    ws-opts:
+      path: /vlesscf
+      headers:
+        Host: sg-do.tingkehvpn.my.id
+    udp: true
+  - name: trial 2
+    server: quiz.vidio.com
+    port: 443
+    type: vless
+    uuid: de6d0e42-ef32-491f-9a8d-2ffac975206d
+    alterId: 8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: mb.mbt.dns-dynamic.net
+    network: ws
+    ws-opts:
+      path: /?ed\u003d2560
+      headers:
+        Host: mb.mbt.dns-dynamic.net
+    udp: true
+  - name: trial 3
+    server: quiz.vidio.com
+    port: 443
+    type: vless
+    uuid: 78802b4e-9898-441b-b52f-ecabe9347f62
+    alterId: 8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-full.privateip.net
+    network: ws
+    ws-opts:
+      path: /VLESS
+      headers:
+        Host: sg-full.privateip.net
+    udp: true
+  - name: trial 4
+    server: quiz.vidio.com
+    port: 443
+    type: vless
+    uuid: f9021b31-e8bd-4b4d-a1d3-c9b0c1476c44
+    alterId: 8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-do.tingkehvpn.my.id
+    network: ws
+    ws-opts:
+      path: /vlesscf
+      headers:
+        Host: sg-do.tingkehvpn.my.id
+    udp: true
+  - name: trial 5
+    server: quiz.vidio.com
+    port: 443
+    type: vless
+    uuid: 67ad8e0a-2d58-436a-8d29-f7bdd7dc45fd
+    alterId: 8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: agoyvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /vlesscf
+      headers:
+        Host: agoyvpn.biz.id
+    udp: true
+  - name: trial 6
+    server: quiz.vidio.com
+    port: 443
+    type: vmess
+    uuid: 7d3e93ff-73a3-4f27-89af-ee5d93493735
+    alterId: 8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 511071vw4j1jj77074.speedup.mobi
+    network: ws
+    ws-opts:
+      path: chat.sociomile.com/vmessws
+      headers:
+        Host: 511071vw4j1jj77074.speedup.mobi
+    udp: true
+  - name: trial 7
+    server: quiz.vidio.com
+    port: 443
+    type: vless
+    uuid: fb710ee0-f2d3-421c-8556-d23e5075f57e
+    alterId: 8
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: bpb-worker-panel-chf.pages.dev
+    network: ws
+    ws-opts:
+      path: /TELEGRAM-MARAMBASHI-MARAMBASHI/?ed\u003d2048
+      headers:
+        Host: bpb-worker-panel-chf.pages.dev
+    udp: true
